@@ -7,4 +7,5 @@ I created corroborate as a testing ground when I was looking to buy a Web Applic
 The core of Corroborate is a security-flawed web app. You can use Corroborate to test if the Web Application Security Scanner you're evaluating is any good.
 
 ## Usage
-```python3 corroborate.py
+`python3 corroborate.py`
+This will start a server running on port 5000. Now scan away
