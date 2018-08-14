@@ -1,3 +1,17 @@
 .pink_filler{
   background-color: pink;
 }
+
+.col{
+  padding: 30px;
+}
+
+.title {
+  font-size: 50pt;
+}
+
+.slogan{
+  font-size: 20pt;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
