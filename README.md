@@ -13,10 +13,19 @@ Corroborate currently has the following vulnerabilities
 - Sensitive information in source code
 
 ## Usage
-`export FLASK_APP=corroberate.py`
 
-`python3 corroborate.py`
+git clone https://github.com/robertsvensson/corroborate.git
 
-This will start a server running on port 5000. Now scan away
+cd corroborate/
+
+python3 -m venv .
+
+source bin/activate
+
+export FLASK_APP=corroberate.py
+
+flask run --host=0.0.0.0
+
+This will start a server running on 0.0.0.0:5000. Now scan away
 
 ![Screen](screenshot.png)
